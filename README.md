@@ -18,7 +18,15 @@ Options:
   -h, --help                           Print help
 ```
 
-### Example
+### Installation
+
+You can install `cargo-consolidate` directly from crates.io:
+
+```bash
+cargo install cargo-consolidate
+```
+
+### Usage
 
 ```bash
 cargo-consolidate --manifest-path /path/to/your/workspace/Cargo.toml
