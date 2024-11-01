@@ -2,6 +2,14 @@
 name = "cargo-consolidate"
 version = "0.1.0"
 edition = "2021"
+authors = ["Bastian Gruber <foreach@me.com>"]
+description = "A command-line tool to consolidate dependencies in a Rust workspace."
+license = "Mozilla Public License Version 2.0"
+repository = "https://github.com/gruberb/cargo-consolidate"
+homepage = "https://github.com/gruberb/cargo-consolidate"
+documentation = "https://docs.rs/cargo-consolidate"
+keywords = ["rust", "workspace", "dependencies", "cargo"]
+categories = ["development-tools::cargo-plugins"]
 
 [dependencies]
 cargo_metadata = { version = "0.18", features = ["builder"] }
